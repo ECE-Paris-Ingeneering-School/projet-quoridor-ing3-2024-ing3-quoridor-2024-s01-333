@@ -1,6 +1,3 @@
-//
-// Created by Mirina on 22/11/2024.
-//
 #include "header_premiere_partie_mirina.h"
 #include <windows.h>
 #include <stdio.h>
@@ -26,3 +23,4 @@ int main(void) {
 
     return 0;
 }
+
