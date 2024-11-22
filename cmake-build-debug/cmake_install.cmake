@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Mirina/CLionProjects/projet-quoridor-ing3-2024-ing3-quoridor-2024-s01-333
+# Install script for directory: /Users/camillemarlin/CLionProjects/projet-quoridor-ing3-2024-ing3-quoridor-2024-s01-333
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/projet_quoridor_ing3_2024_ing3_quoridor_2024_s01_33")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Mirina/CLionProjects/projet-quoridor-ing3-2024-ing3-quoridor-2024-s01-333/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/camillemarlin/CLionProjects/projet-quoridor-ing3-2024-ing3-quoridor-2024-s01-333/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
